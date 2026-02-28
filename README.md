@@ -1,4 +1,4 @@
-# 🫀 Swasth AI: Intelligent Triage & Predictive Healthcare Companion
+# 🫀 Swasth AI: Digital Health Twin Lab
 
 [![React](https://img.shields.io/badge/React-18.2.0-blue.svg?logo=react)](https://reactjs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110.0-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com/)
