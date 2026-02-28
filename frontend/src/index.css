@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-healthcare-blue text-white rounded-xl font-medium shadow-soft hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-white text-healthcare-blue border border-healthcare-blue/20 rounded-xl font-medium shadow-soft hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl p-6 shadow-soft border border-slate-100;
+  }
+}
